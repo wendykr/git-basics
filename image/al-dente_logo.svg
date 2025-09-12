@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 792 445" version="1.1">
+  <g class="logo" transform="translate(815.8 -930)">
+    <g class="logo-background" stroke="#000" stroke-width="8.49" transform="matrix(.825 0 0 .8237 -920.7 800.3)">
+      <circle cx="606.8" cy="416.7" r="255" fill="#f10"/>
+      <ellipse cx="608.4" cy="371.9" fill="#ffe728" rx="199.1" ry="194.4"/>
+    </g>
+    <g class="logo-chef" stroke="#000" stroke-width="6.07" transform="matrix(.825 0 0 .8237 -618.7 604.9)">
+      <ellipse cx="239.4" cy="709.4" fill="#fff" rx="103.5" ry="61.11" stroke-linecap="round"/>
+      <ellipse cx="240.2" cy="599.3" fill="#ffb280" rx="49.75" ry="73.74" stroke-linecap="round"/>
+      <path fill="#fff" d="M240.9 424.1a42.43 42.43 0 0 0-41.9 36.4 42.43 42.43 0 0 0-20.2-5.1 42.43 42.43 0 0 0-42.4 42.4 42.43 42.43 0 0 0 42.4 42.4 42.43 42.43 0 0 0 10.6-1.4v78h103v-78a42.43 42.43 0 0 0 10.6 1.4 42.43 42.43 0 0 0 42.5-42.4 42.43 42.43 0 0 0-42.5-42.4 42.43 42.43 0 0 0-20.1 5.1 42.43 42.43 0 0 0-42-36.4z" stroke-linecap="round"/>
+      <path fill-rule="evenodd" d="M242.58 638.05s13.4-15.2 26.8-11c13.4 4.2 19.2 20.2 35.5 19.4 16.3-.8 26.8-17.7 26.8-17.7s-1.9 33.7-47 37.1c-45 3.4-42.1-27.8-42.1-27.8zm-4.4 0s-13.4-15.2-26.8-11c-13.4 4.2-19.2 20.2-35.5 19.4-16.3-.8-26.8-17.7-26.8-17.7s1.9 33.7 47 37.1c45 3.4 42.1-27.8 42.1-27.8z"/>
+      <path fill="none" d="M189.4 596.8h103v20.02h-103z" stroke-linecap="round"/>
+    </g>
+    <g class="logo-pizza" stroke="#000" transform="matrix(.825 0 0 .8237 -614.6 600.5)">
+      <ellipse cx="235.7" cy="755.2" fill="#c97807" stroke-width="6.07" rx="167.1" ry="57.14" stroke-linecap="round"/>
+      <ellipse cx="236.4" cy="747" fill="#e03615" stroke-width="6.07" rx="157.9" ry="46.79" stroke-linecap="round"/>
+      <path fill="none" stroke-width="3.64" d="M78.8 745c85.9-12.8 235.5-9.6 315.5 1.7m-156.8-49.3v97.8m-92.1-88.6c62.2 16.2 110.4 31.3 182.5 78.5m-.4-77.7c-63.9 17.5-130.6 40.2-181.8 78.2"/>
+      <ellipse cx="163.9" cy="748.8" fill="#cc0d0d" stroke-width="3.64" rx="10.36" ry="3.93" stroke-linecap="round"/>
+      <ellipse cx="173.4" cy="729.9" fill="#cc0d0d" stroke-width="3.64" rx="10.89" ry="3.93" stroke-linecap="round"/>
+      <ellipse cx="139.1" cy="724.2" fill="#cc0d0d" stroke-width="3.64" rx="9.46" ry="3.21" stroke-linecap="round"/>
+      <ellipse cx="117" cy="749.7" fill="#cc0d0d" stroke-width="3.64" rx="12.68" ry="4.46" stroke-linecap="round"/>
+      <ellipse cx="142.1" cy="767.7" fill="#cc0d0d" stroke-width="3.64" rx="12.14" ry="5.36" stroke-linecap="round"/>
+      <ellipse cx="209.8" cy="760.8" fill="#cc0d0d" stroke-width="3.64" rx="11.61" ry="4.46" stroke-linecap="round"/>
+      <ellipse cx="214.3" cy="777" fill="#cc0d0d" stroke-width="3.64" rx="12.14" ry="5.36" stroke-linecap="round"/>
+      <ellipse cx="254.3" cy="757.7" fill="#cc0d0d" stroke-width="3.64" rx="12.14" ry="5.36" stroke-linecap="round"/>
+      <ellipse cx="267.1" cy="776.7" fill="#cc0d0d" stroke-width="3.64" rx="12.14" ry="5.36" stroke-linecap="round"/>
+      <ellipse cx="302.9" cy="777.7" fill="#cc0d0d" stroke-width="3.64" rx="12.14" ry="5.36" stroke-linecap="round"/>
+      <ellipse cx="294.3" cy="748.8" fill="#cc0d0d" stroke-width="3.64" rx="10.36" ry="3.21" stroke-linecap="round"/>
+      <ellipse cx="317.7" cy="759" fill="#cc0d0d" stroke-width="3.64" rx="11.96" ry="4.82" stroke-linecap="round"/>
+      <ellipse cx="350.4" cy="767.4" fill="#cc0d0d" stroke-width="3.64" rx="12.14" ry="5.36" stroke-linecap="round"/>
+      <ellipse cx="349.1" cy="749.7" fill="#cc0d0d" stroke-width="3.64" rx="10.54" ry="3.75" stroke-linecap="round"/>
+      <ellipse cx="289.8" cy="727" fill="#cc0d0d" stroke-width="3.64" rx="11.25" ry="3.93" stroke-linecap="round"/>
+      <ellipse cx="322" cy="722.5" fill="#cc0d0d" stroke-width="3.64" rx="12.32" ry="3.75" stroke-linecap="round"/>
+      <ellipse cx="356.1" cy="732.7" fill="#cc0d0d" stroke-width="3.64" rx="12.5" ry="3.93" stroke-linecap="round"/>
+      <ellipse cx="273.9" cy="712.5" fill="#cc0d0d" stroke-width="3.64" rx="7.5" ry="3.75" stroke-linecap="round"/>
+      <ellipse cx="214.5" cy="714.2" fill="#cc0d0d" stroke-width="3.64" rx="9.11" ry="3.93" stroke-linecap="round"/>
+      <ellipse cx="186.2" cy="710.6" fill="#cc0d0d" stroke-width="3.64" rx="10.18" ry="3.57" stroke-linecap="round"/>
+      <ellipse cx="250.2" cy="711.3" fill="#cc0d0d" stroke-width="3.64" rx="10.54" ry="4.64" stroke-linecap="round"/>
+    </g>
+    <path id="a" fill="none" fill-opacity="1" fill-rule="evenodd" stroke="none" stroke-opacity="1" stroke-width=".97" d="M-711.1 1333c245 20 354 16 602-7" stroke-linecap="butt" stroke-linejoin="miter"/>
+    <g class="logo-ribbon" stroke="#000" transform="matrix(1.33 0 0 .9852 -1218 685.8)">
+      <g transform="matrix(-1 0 0 1 1200 -1.167)">
+        <path fill="#164300" stroke-width="7.87" d="M310.9 559l80.1 9.8c2.3.3 4.2 1.9 4.2 4.2v88.7c0 2.4-1.9 4.5-4.2 4.2l-80.1-9.8c-2.3-.3-4.2-1.9-4.2-4.2l45.1-44.6-45.1-44.1c-1.7-1.6 1.9-4.5 4.2-4.2z"/>
+        <path fill="none" stroke-width="8.3" d="M394 569.3L374.2 583l.9 30.8 19.7 5.2c-1.8-8.6-.8-49.7-.8-49.7z" stroke-linejoin="round"/>
+      </g>
+      <path fill="#164300" stroke-width="7.87" d="M310.9 559l80.1 9.8c2.3.3 4.2 1.9 4.2 4.2v88.7c0 2.4-1.9 4.5-4.2 4.2l-80.1-9.8c-2.3-.3-4.2-1.9-4.2-4.2l45.1-44.6-45.1-44.1c-1.7-1.6 1.9-4.5 4.2-4.2z"/>
+      <path fill="none" stroke-width="8.3" d="M394 569.3L374.2 583l.9 30.8 19.7 5.2c-1.8-8.6-.8-49.7-.8-49.7z" stroke-linejoin="round"/>
+      <path fill="#328e00" stroke-width="7.87" d="M377.9 581.5s149 16.7 223.8 16.6c73.6 0 220.2-16.6 220.2-16.6 2.3 0 4.2 1.9 4.2 4.2v88.7c0 2.4-1.9 4.3-4.2 4.3 0 0-147 16.5-220.8 16.5-74.6.1-223.2-16.5-223.2-16.5-2.3 0-4.2-1.9-4.2-4.3v-88.7c0-2.3 1.9-4.2 4.2-4.2z"/>
+    </g>
+    <text class="logo-text" x="122.21" y="0" fill="#000" fill-opacity="1" stroke="none" stroke-opacity="1" stroke-width="1" font-weight="bold" font-stretch="normal" font-size="79.98" style="line-height:125%;-inkscape-font-specification:'Laksaman Bold';text-align:start" letter-spacing="0" word-spacing="0" text-anchor="start" transform="translate(9.45 2.856)" xml:space="preserve" font-style="normal" font-variant="normal" stroke-linecap="butt" stroke-linejoin="miter" font-family="Laksaman">
+      <textPath xlink:href="#a" style="-inkscape-font-specification:Verdana;text-align:start" font-style="normal" font-variant="normal" font-weight="normal" font-stretch="normal" font-size="54.99" font-family="Verdana" text-anchor="start">Restaurace Al Dente</textPath>
+    </text>
+  </g>
+</svg>

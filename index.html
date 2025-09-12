@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurace Al Dente</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="css/blanka.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" class="hidden-svg">
+    <defs>
+    <symbol viewbox="0 0 100 100" id="icon-vege">
+        <path d="M61.7 41.97c-13.94 0-22.95 5.83-32.06 15.88-.5.5-.76 1.07-.76 1.8 0 1.38 1.12 2.5 2.5 2.5.73 0 1.27-.27 1.8-.76 1.93-1.8 3.68-3.7 5.57-5.4 7.12-6.4 13.22-9 22.95-9 1.4 0 2.5-1.16 2.5-2.5 0-1.4-1.1-2.6-2.5-2.6z"/>
+        <path d="M50 0C22.38 0 0 22.38 0 50s22.38 50 50 50 50-22.38 50-50S77.62 0 50 0zm33.6 44.3c-2.53 12.25-10.42 20.23-21.36 25.65C56.9 72.65 51 74.2 44.98 74.2c-3.77 0-7.67-.6-11.26-1.82-1.88-.63-5.7-3.1-7.26-3.1-1.97 0-4.35 8.03-7.76 8.03-2.46 0-3.23-1.2-4.3-3-.36-.64-.63-.9-.63-1.72 0-4.07 7.8-7.3 7.8-9.6 0-.34-1.03-2.4-1.16-3.2-.2-1.36-.3-2.75-.3-4.1 0-12.5 9.97-21.47 21.18-25.2 8.08-2.7 25.26.45 30.77-4.75 2.15-2.02 3.23-3.85 6.55-3.85 4.43 0 5.9 11.56 5.9 14.88-.05 2.57-.32 5.1-.85 7.64z"/>
+    </symbol>
+    <symbol viewbox="0 0 10 11.2" id="icon-chilli">
+      <path class="icon-chilli-stopka" d="M.74 3.1C.7 3.1.64 3.05.6 3 .58 2.93-.16 1.63.04.1c.02-.1.1-.13.2-.1C.32.05.4.18.4.28.2 1.66.85 2.8.85 2.83c-.12.2-.04.06-.13.28z"/>
+      <path d="M2.27 2.57C.87 1.9-.3 4 .3 5.57 2.06 8.9 6.1 11.6 9.65 10.9c-7.3-4.33-4.73-7.04-7.38-8.33z" transform="matrix(1 0 0 1.007 -.013 -.01)"/>
+    </symbol>
+    <symbol viewbox="0 0 17052 16852" id="icon-sekt">
+      <path d="M12960 9605c13,2 25,3 38,5 73,10 149,15 225,15 159,0 314,-22 460,-64 140,-40 272,-98 394,-172 178,-107 335,-246 461,-409 218,-282 348,-635 348,-1018 0,-838 -621,-1532 -1428,-1646l185 -1226c41,-386 612,-1117 1325,-1872 150,-198 262,-256 284,-316l-1123 -1110c-88,66 -131,132 -222,213l-95 76c-1104,992 -2594,1940 -4113,2553 -156,73 -244,96 -395,151 -175,0 -350,0 -525,0l-7586 0 226 1470 -6 1 9 61c-698,104 -1255,640 -1388,1328 -20,103 -30,209 -30,317 0,733 474,1355 1132,1577 167,56 345,86 531,86 83,0 165,-6 245,-18l3 17c23,0 41,0 53,1l464 3080 10038 0c48,-297 125,-740 204,-1208l274 -1807 7 -80 5 0 0 -5z"/>
+      <path d="M2663 14058l9161 0c480,1 426,42 458,-182 28,-193 53,-347 101,-609l-9873 0c21,186 124,664 153,791z"/>
+      <path d="M12163 14624l-9424 0c86,372 156,1229 267,1542 175,489 628,682 1165,682l6560 0c246,0 442,-33 600,-93 227,-104 408,-289 532,-518 145,-336 164,-769 234,-1189 18,-104 63,-295 66,-424z"/>
+      <path d="M14565 1331l1150 1136c431,-414 865,-801 1236,-1106 242,-199 -6,-701 -338,-989 -349,-303 -708,-457 -918,-315 -104,71 -176,173 -257,267 -306,358 -579,686 -873,1007z"/>
+    </symbol>
+    <symbol viewbox="0 0 395 449" id="icon-nakup">
+      <path d="M245 212l150 0 0 57 -31 0 -46 138c-7,22 -17,42 -37,42l-152 0c-20,0 -29,-20 -37,-42l-46 -138 -30 0 0 -57 70 0 159 0zm13 85c9,0 16,7 16,16l0 79c0,9 -7,17 -16,17 -9,0 -17,-8 -17,-17l0 -79c0,-9 8,-16 17,-16zm-20 -85l0 -10 0 -38c0,-12 -5,-22 -13,-30 -7,-7 -17,-12 -29,-12l-61 0c-12,0 -22,5 -30,12 -7,8 -12,18 -12,30l0 47 0 1 -4 0 -3 0 0 -48c0,-14 5,-26 14,-35 9,-9 21,-14 35,-14l61 0c14,0 26,5 35,14 9,9 14,21 14,35l0 48 -4 0 -3 0zm-33 85c9,0 17,7 17,16l0 79c0,9 -8,17 -17,17 -9,0 -16,-8 -16,-17l0 -79c0,-9 7,-16 16,-16zm-52 0c9,0 16,7 16,16l0 79c0,9 -7,17 -16,17 -9,0 -17,-8 -17,-17l0 -79c0,-9 8,-16 17,-16z"/>
+      <path d="M39 95c-2,-3 5,-11 17,-19 11,-8 22,-13 23,-10 2,3 -5,11 -16,19 -12,8 -22,13 -24,10zm43 19c11,-8 22,-13 24,-10 2,3 -6,11 -17,19 -11,8 -22,13 -24,10 -1,-3 6,-11 17,-19zm0 49c0,-27 20,-48 46,-51 -5,-8 -11,-17 -17,-25 -48,-66 -96,-102 -108,-81 -12,21 17,92 65,157 5,7 9,14 14,20l0 -20z"/>
+      <path d="M238 212c0,-2 0,-3 0,-4 1,-3 2,-7 4,-10l36 -57c8,-13 20,-16 28,-17 -1,-2 -2,-3 -2,-5 -1,-3 0,-6 2,-9l5 -9c2,-2 5,-4 8,-5 3,-1 6,0 9,1l47 30c3,2 5,5 5,8 1,3 1,6 -1,9l-5 9c-2,3 -5,4 -8,5 -2,0 -3,0 -5,0 3,8 5,20 -4,33l-12 21 -9 0 15 -25c8,-13 4,-25 2,-30 -2,-3 -2,-5 -1,-7 2,-3 4,-3 8,0 1,1 3,1 4,1 1,-1 3,-1 3,-3l5 -8c1,-1 1,-2 1,-4 0,-1 -1,-2 -2,-3l-47 -29c-1,-1 -2,-1 -4,-1 -1,1 -2,1 -3,3l-5 8c-1,1 -1,2 0,4 0,1 1,2 2,3 4,2 5,4 3,7 -1,2 -3,2 -6,3 -6,0 -19,1 -27,14l-36 57c-1,3 -2,5 -3,7 0,1 0,2 0,3 -5,0 -4,0 -7,0z"/>
+      <path d="M135 122l61 0c12,0 22,5 29,12 8,8 13,18 13,30l0 38 0 10 0 -4c1,-3 2,-7 4,-10l3 -5 0 -29c0,-14 -5,-26 -14,-35 -9,-9 -21,-14 -35,-14l-61 0c-14,0 -26,5 -35,14 -9,9 -14,21 -14,35l0 48 3 0 4 0 0 -1 0 -47c0,-12 5,-22 12,-30 8,-7 18,-12 30,-12z"/>
+    </symbol>
+    <symbol viewbox="0 0 231.482 214.604" id="icon-zahradka">
+        <rect class="icon-zahradka-stul" x="108.822" y="132.694" width="13.839" height="81.909"/>
+        <rect class="icon-zahradka-zidle" x="152.03" y="159.046" width="13.843" height="55.557"/>
+        <rect class="icon-zahradka-zidle" x="65.668" y="159.046" width="13.843" height="55.557"/>
+        <rect class="icon-zahradka-zidle" x="209.332" y="103.992" width="13.843" height="110.612"/>
+        <rect class="icon-zahradka-zidle" x="8.37" y="103.992" width="13.839" height="110.612"/>
+        <rect class="icon-zahradka-zidle" x="152.03" y="159.046" width="61.423" height="13.763"/>
+        <rect class="icon-zahradka-zidle" x="152.03" y="191.844" width="61.423" height="5.055"/>
+        <rect class="icon-zahradka-zidle" y="191.844" width="61.423" height="5.055"/>
+        <rect class="icon-zahradka-zidle" x="18.087" y="159.046" width="61.423" height="13.763"/>
+        <path class="icon-zahradka-stul" d="M190.241,127.586s0-3.809-3.809-3.809H45.05s-3.809,0-3.809,3.809v8.62s0,3.809,3.809,3.809H186.432s3.809,0,3.809-3.809Z"/>
+        <rect class="icon-zahradka-destnik-tyc" x="112.841" y="24.783" width="5.798" height="107.252"/>
+        <polygon class="icon-zahradka-zidle" points="114.108 0 112.843 3.527 118.641 3.527 117.281 0 114.108 0"/>
+        <polygon class="icon-zahradka-destnik" points="113.175 3.079 0 36.074 42.263 39.255 115.682 42.432 189.104 39.255 231.482 36.074 118.306 3.079 113.175 3.079"/>
+      </symbol>
+      <symbol viewbox="0 0 16758 16110" id="icon-kuchar">
+        <path d="M12649 13561c-787,756 -2835,1160 -4270,1160 -1393,0 -3383,-353 -4207,-1063l81 769c119,1124 2548,1683 4126,1683 1564,0 3936,-592 4126,-1683 54,-313 102,-599 144,-866z"/>
+        <path d="M5217 10143c-19,-173 106,-330 278,-350 173,-19 330,106 350,278l254 2223c20,173 -105,330 -278,350 -172,19 -330,-106 -349,-278l-255 -2223zm-2897 -5187c-63,150 -236,220 -386,157 -150,-63 -220,-235 -157,-385 232,-549 616,-1001 1099,-1318 480,-315 1057,-498 1678,-513 163,-4 298,125 301,288 4,162 -124,297 -287,301 -509,12 -980,160 -1369,416 -387,254 -694,615 -879,1054zm4750 -2708c-135,90 -318,53 -408,-83 -90,-136 -53,-319 83,-409 492,-326 1049,-490 1608,-490 559,0 1118,162 1614,488 136,89 174,272 85,408 -89,136 -272,175 -408,85 -400,-262 -847,-393 -1291,-393 -443,1 -887,132 -1283,394zm2070 8455c0,-173 142,-315 315,-315 174,0 316,142 316,315l0 2238c0,173 -142,315 -316,315 -173,0 -315,-142 -315,-315l0 -2238zm1582 1591l255 -2223c19,-172 177,-297 349,-278 173,20 298,177 278,350l-255 2223c-19,172 -177,297 -349,278 -173,-20 -298,-177 -278,-350zm2057 371c105,-805 159,-1465 212,-2260 31,-456 335,-825 777,-941 1721,-456 2990,-2025 2990,-3890 0,-2222 -1801,-4024 -4023,-4024 -372,0 -732,51 -1074,145 -729,-1026 -1927,-1695 -3282,-1695 -1354,0 -2553,669 -3282,1695 -342,-94 -702,-145 -1074,-145 -2222,0 -4023,1802 -4023,4024 0,1883 1293,3463 3040,3902 434,109 738,460 785,905l259 2442c761,765 2849,1145 4295,1145 1522,0 3735,-455 4400,-1303zm-5159 -2277c174,0 316,142 316,315l0 2238c0,173 -142,315 -316,315 -173,0 -315,-142 -315,-315l0 -2238c0,-173 142,-315 315,-315z"/>
+      </symbol>
+      <symbol viewbox="0 0 600 100" id="icon-hvezda">
+        <path d="M79.5 96.4L49.8 80.7l-30 14.7 6-33L1.8 39 35 34.3l15.2-30 14.8 30 33.2 5-24.3 23z"/>
+      </symbol>
+      <lineargradient id="halfGradient">
+  <stop stop-opacity="1" offset="50%" stop-color="#ffbe0b"></stop>
+  <stop stop-opacity="1" offset="50%" stop-color="#c0c0c0"></stop>
+</lineargradient>
+   </defs>
+  </svg>
+  <!-- <div class="last-edit">Poslední změna dokumentu:
+    <script language="JavaScript">
+      document.write(document.lastModified)
+    </script>
+  </div> -->
+  
+  <a href="#main" class="hidden">přeskočit na hlavní obsah</a>
+  
+  <header>
+    <img src="image/al-dente_logo.svg" alt="Logo Al Dente">
+    <h1>Restaurace Al Dente</h1>
+    <p>Váš ostrůvek slunné Itálie uprostřed pražských Stodůlek!</p>
+  </header>
+
+  <nav role="navigation">
+    <ul>
+      <li class="selected"><a href="index.html" title="Hlavní obsah">Hlavní obsah</a></li>
+      <li><a href="jidelnicek.html" title="Jídelníček">Jídelníček</a></li>
+      <li><a href="recenze.html" title="Recenze">Recenze</a></li>
+      <li><a href="galerie.html" title="Galerie">Galerie</a></li>
+      <li><a href="kontakt.html" title="Kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <!-- Upoutávkové boxy: -->
+  <div class="center-block">
+    <div class="container">
+      <main id="main" role="main">
+        <section class="upoutavky">
+          <div>
+            <svg class="icon-sekt">
+              <use xlink:href="#icon-sekt"/>
+          </svg>
+            <h2>Prvotřídní vína</h2>
+            <p>Rozléváme sommeliérem vybraná vína&nbsp;k&nbsp;pokrmům naší kuchyně.</p>
+          </div>
+
+          <div>
+            <svg class="icon-nakup">
+              <use xlink:href="#icon-nakup"/>
+          </svg>
+            <h2>Zaručeně čerstvé suroviny</h2>
+            <p>Když ještě snídáte, náš šéfkuchař již obráží místní trhy.</p>
+          </div>
+
+          <div>
+            <svg class="icon-zahradka">
+              <use xlink:href="#icon-zahradka"/>
+          </svg>
+            <h2>Posezení na zahrádce</h2>
+            <p>Prostorná zahrádka je&nbsp;k&nbsp;dispozici vám&nbsp;i&nbsp;vašim ratolestem.</p>
+          </div>
+
+          <div>
+            <svg class="icon-kuchar">
+              <use xlink:href="#icon-kuchar"/>
+          </svg>
+            <h2>Tip šéfkuchaře</h2>
+            <p>Filet&nbsp;z&nbsp;mořského vlka, na másle restovaná jarní zelenina, krém&nbsp;z&nbsp;bílého chřestu 420&nbsp;Kč</p>
+          </div>
+        </section>
+
+<!--         <section id="jidelnicek" class="menu">
+          <h2>Jídelní lístek</h2>
+          <h3>Předkrmy</h3>
+          <ul>
+            <li><small>1&nbsp;ks</small> Bruschetta&nbsp;s&nbsp;rajčaty ochucenými olivovým olejem, česnekem&nbsp;a&nbsp;bazalkou
+              <svg class="icon-vege">
+                <use xlink:href="#icon-vege"></use>
+            </svg>
+              <small class="alergen">1, 3, 7</small> 65&nbsp;Kč</li>
+            <li><small>80&nbsp;g</small> Domácí paštika&nbsp;z&nbsp;pštrosích jater&nbsp;s&nbsp;brusinkovou slzou <small class="alergen">10</small> 75&nbsp;Kč</li>
+            <li><small>50&nbsp;g</small> Grilovaná pštrosí jatýrka&nbsp;s&nbsp;cibulovým ragú <small class="alergen">10</small> 75&nbsp;Kč</li>
+            <li><small>100&nbsp;g</small> Insalata caprese
+              <svg class="icon-vege">
+                <use xlink:href="#icon-vege"/>
+            </svg>
+              <small class="alergen">7</small> 85&nbsp;Kč</li>
+            <li><small>90&nbsp;g</small> Rozpečený kozí sýr se salátem&nbsp;z&nbsp;červené řepy&nbsp;a&nbsp;rukoly <small class="alergen">7</small> 105&nbsp;Kč</li>
+            <li><small>80&nbsp;g</small> Carpaccio&nbsp;s&nbsp;hoblinkami parmazánu&nbsp;a&nbsp;rukolou <small class="alergen">7</small> 145&nbsp;Kč</li>
+          </ul>
+          <img src="fotky/predkrm-600.jpg" srcset="fotky/predkrm-300.jpg 0.5x, fotky/predkrm-1200.jpg 2x, fotky/predkrm-1600.jpg 3x" width="600" height="397" alt="Cibulový salát">
+
+
+          <h3>Polévky</h3>
+          <ul>
+            <li><small>0,3&nbsp;l</small> Minestrone <small class="alergen">1, 3</small> 45&nbsp;Kč</li>
+            <li><small>0,3&nbsp;l</small> Silný hovězí vývar se zeleninou, masem&nbsp;a&nbsp;nudlemi <small class="alergen">1, 3</small> 45&nbsp;Kč</li>
+            <li><small>0,3&nbsp;l</small> Polévka dle denní nabídky 45&nbsp;Kč</li>
+          </ul>
+          <img src="fotky/polevka-600.jpg" srcset="fotky/polevka-300.jpg 0.5x, fotky/polevka-1200.jpg 2x" width="600" height="400" alt="Silný hovězí vývar se zeleninou, masem a nudlemi">
+
+          <h3>Saláty</h3>
+          <ul>
+            <li><small>90&nbsp;g</small> Malý míchaný salát&nbsp;z&nbsp;čerstvé zeleniny&nbsp;a&nbsp;salátů
+              <svg class="icon-vege">
+                <use xlink:href="#icon-vege"></use>
+            </svg>
+              <small class="alergen">9</small> 55&nbsp;Kč</li>
+            <li><small>120&nbsp;g</small> Výběr listových salátů&nbsp;s&nbsp;rukolou, mozzarellou, italskými sušenými rajčaty, obřím artyčokem&nbsp;a&nbsp;balsamikovou redukcí
+              <svg class="icon-vege">
+                <use xlink:href="#icon-vege"/>
+            </svg>
+              <small class="alergen">9</small> 135&nbsp;Kč</li>
+            <li><small>120&nbsp;g</small> Římský salát&nbsp;s&nbsp;originálním ančovičkovým dresinkem, grilovaným kuřecím prsíčkem, máslovými krutony&nbsp;a&nbsp;hoblinkami parmazánu
+              <svg class="icon-vege">
+                <use xlink:href="#icon-vege"/>
+            </svg>
+              <small class="alergen">4, 7, 12</small> 135&nbsp;Kč</li>
+          </ul>
+          <img src="fotky/salat-600.jpg" srcset="fotky/salat-300.jpg 0.5x, fotky/salat-1200.jpg 2x" width="600" height="400" alt="Římský salát s dresinkem">
+
+          <h3>Těstoviny</h3>
+          <ul>
+            <li><small>50&nbsp;g</small> Domácí těstoviny&nbsp;s&nbsp;panchettou, žloutkem, zjemněné smetanou&nbsp;a&nbsp;škrábaným parmazánem <small class="alergen">1, 3</small> 145&nbsp;Kč</li>
+            <li><small>50&nbsp;g</small> Domácí těstoviny&nbsp;s&nbsp;boloňskou omáčkou&nbsp;a&nbsp;parmazánem <small class="alergen">1, 3</small> 145&nbsp;Kč</li>
+            <li><small>50&nbsp;g</small> Bramborové noky se sicilskou klobásou salsiccia, sušenýmy rajčaty, rukolou, piniovými semínky&nbsp;a&nbsp;škrábaným parmazánem <small class="alergen">1, 3</small> 165&nbsp;Kč</li>
+            <li><small>50&nbsp;g</small> Bramborové noky se smetanou, listovým špenátem, kuřecím masem, česnekem&nbsp;a&nbsp;parmazánem <small class="alergen">1, 3</small> 145&nbsp;Kč</li>
+            <li><small>50&nbsp;g</small> Domácí těstoviny&nbsp;s&nbsp;vepřovou panenkou, hříbky, česnekem, listovým špenátem, smetanou&nbsp;a&nbsp;parmazánem <small class="alergen">1, 3</small> 155&nbsp;Kč</li>
+            <li><small>50&nbsp;g</small> Domácí těstoviny&nbsp;s&nbsp;bazalkou, italskými sušenými rajčaty, paprikou, česnekem, parmazánem, obřím artyčokem&nbsp;a&nbsp;špenátem
+              <svg class="icon-vege">
+                <use xlink:href="#icon-vege"/>
+            </svg>
+              <small class="alergen">1, 3</small> 155&nbsp;Kč</li>
+            <li><small>50&nbsp;g</small> Zapečené lasagne&nbsp;s&nbsp;masovým ragů&nbsp;v&nbsp;rajčatové omáčce&nbsp;s&nbsp;bylinkami&nbsp;a&nbsp;mozzarellou <small class="alergen">1, 3</small> 145&nbsp;Kč</li>
+          </ul>
+          <img src="fotky/testoviny-600.jpg" srcset="fotky/testoviny-300.jpg 0.5x, fotky/testoviny-1200.jpg 2x" width="600" height="399" alt="Domácí těstoviny s omáčkou">
+
+          <h3>Pizza</h3>
+          <ul>
+            <li>Focaccia <small class="alergen">1, 3, 7</small> 69&nbsp;Kč
+              <p>Pizza placka&nbsp;s&nbsp;česnekem, olivový olej, rozmarýn, parmazán
+                <svg class="icon-vege">
+                  <use xlink:href="#icon-vege"/>
+              </svg>
+              </p>
+            </li>
+            <li>Margherita <small class="alergen">1, 3, 7</small> 99&nbsp;Kč
+              <p>Rajčata, mozzarella, čerstvá bazalka
+                <svg class="icon-vege">
+                  <use xlink:href="#icon-vege"/>
+              </svg>
+              </p>
+            </li>
+            <li>Vesuvio <small class="alergen">1, 3, 7</small> 115&nbsp;Kč
+              <p>Rajčata, mozzarella, šunka</p>
+            </li>
+            <li>Capricciosa <small class="alergen">1, 3, 7</small> 125&nbsp;Kč
+              <p>Rajčata, mozzarella, šunka, žampiony</p>
+            </li>
+            <li>Hawai <small class="alergen">1, 3, 7</small> 125&nbsp;Kč
+              <p>Rajčata, mozzarella, šunka, ananas</p>
+            </li>
+            <li>Mafiano <small class="alergen">1, 3, 7</small> 175&nbsp;Kč
+              <p>Smetana, mozzarella, marinovaná kuřecí prsíčka, sušená italská rajčata, nudličky&nbsp;z&nbsp;vepřové panenky fajitas, čerstvý salát biondo</p>
+            </li>
+            <li>Calzone con prosciutto <small class="alergen">1, 3, 7</small> 155&nbsp;Kč
+              <p>Mozzarella, uzený sýr scamorza, rajčata, zelené olivy, šunka prosciutto, rozmarýn — plněná</p>
+            </li>
+            <li>Piccante <small class="alergen">1, 3, 7</small> 135&nbsp;Kč
+              <p>Rajčata, mozzarella, salám, slanina, papričky jalapenos
+                <svg class="icon-chilli">
+                  <use xlink:href="#icon-chilli"/>
+              </svg>
+              </p>
+            </li>
+            <li>Vegetariana <small class="alergen">1, 3, 7</small> 135&nbsp;Kč
+              <p>Rajčata, mozzarella, červená cibulka, sušená italská rajčata, kukuřice, listový špenát
+                <svg class="icon-vege">
+                  <use xlink:href="#icon-vege"/>
+              </svg>
+              </p>
+            </li>
+            <li>Agli spinaci <small class="alergen">1, 3, 7</small> 135&nbsp;Kč
+              <p>Rajčata, mozzarella, listový špenát, gorgonzola
+                <svg class="icon-vege">
+                  <use xlink:href="#icon-vege"/>
+              </svg>
+              </p>
+            </li>
+            <li>Funghi <small class="alergen">1, 3, 7</small> 135&nbsp;Kč
+              <p>Smetana, mozzarella, žampiony, hříbky, rozmarýn
+              </p>
+            </li>
+            <li>Romana <small class="alergen">1, 3, 7</small> 135&nbsp;Kč
+              <p>Rajčata, mozzarella, slanina, žampiony
+              </p>
+            </li>
+            <li>Quattro formaggi <small class="alergen">1, 3, 7</small> 135&nbsp;Kč
+              <p>Rajčata, mozzarella, gorgonzola, uzený sýr scamorza, parmazán
+                <svg class="icon-vege">
+                  <use xlink:href="#icon-vege"/>
+              </svg>
+              </p>
+            </li>
+          </ul>
+          <img src="fotky/pizza-600.jpg" srcset="fotky/pizza-300.jpg 0.5x, fotky/pizza-1200.jpg 2x" width="600" height="450" alt="Pizza Vegetariana">
+
+          <h3>Masa&nbsp;z&nbsp;grilu</h3>
+          <ul>
+            <li><small>150&nbsp;g</small> Kuřecí prsní steak&nbsp;s&nbsp;kůží <small class="alergen">1, 10</small> 119&nbsp;Kč</li>
+            <li><small>200&nbsp;g</small> Pštrosí steak na grilu <small class="alergen">1, 10</small> 289&nbsp;Kč</li>
+            <li><small>250&nbsp;g</small> Vepřová krkovice na grilu <small class="alergen">1, 10</small> 169&nbsp;Kč</li>
+            <li><small>200&nbsp;g</small> Váleček vepřové panenky na grilu <small class="alergen">1, 10</small> 179&nbsp;Kč</li>
+            <li><small>250&nbsp;g</small> Hovězí flanksteak připravovaný na způsob "sous vide" <small class="alergen">1, 10</small> 289&nbsp;Kč</li>
+            <li><small>200&nbsp;g</small> Pečený norský losos&nbsp;s&nbsp;restovanou zeleninou <small class="alergen">4</small> 289&nbsp;Kč</li>
+          </ul>
+          <img src="fotky/norsky-losos-600.jpg" srcset="fotky/norsky-losos-300.jpg 0.5x, fotky/norsky-losos-1200.jpg 2x" width="600" height="400" alt="Pečený norský losos">
+
+          <h3>Přílohy</h3>
+          <ul>
+            <li>Bramborové hranolky <small class="alergen">1, 12</small> 40&nbsp;Kč</li>
+            <li>Gratinované brambory se smetanou&nbsp;a&nbsp;tymiánem <small class="alergen">1, 12</small> 45&nbsp;Kč</li>
+            <li>Grilovaná zelenina <small class="alergen">1, 12</small> 70&nbsp;Kč</li>
+            <li>Restované fazolky se slaninou <small class="alergen">1, 12</small> 50&nbsp;Kč</li>
+            <li>Restované brambory&nbsp;s&nbsp;cibulkou <small class="alergen">1, 12</small> 40&nbsp;Kč</li>
+            <li>Focaccia&nbsp;s&nbsp;česnekem, rozmarýnem&nbsp;a&nbsp;parmazánem <small class="alergen">1, 3, 7</small> 69&nbsp;Kč</li>
+          </ul>
+          <img src="fotky/grilovana-zelenina-600.jpg" srcset="fotky/grilovana-zelenina-300.jpg 0.5x, fotky/grilovana-zelenina-1200.jpg 2x" width="600" height="400" alt="Grilovaná zelenina">
+
+          <h3>Dětská jídla</h3>
+          <ul>
+            <li><small>80&nbsp;g</small> Přírodní kuřecí řízek se šťouchaným bramborem <small class="alergen">1, 3, 7</small> 90&nbsp;Kč</li>
+            <li><small>80&nbsp;g</small> Domácí penne&nbsp;s&nbsp;rajčatovou omáčkou&nbsp;a&nbsp;sýrem <small class="alergen">1, 3, 7</small> 70&nbsp;Kč</li>
+          </ul>
+          <img src="fotky/penne-600.jpg" srcset="fotky/penne-300.jpg 0.5x, fotky/penne-1200.jpg 2x" width="600" height="400" alt="Penne s rajčatovou omáčkou">
+
+          <h3>Sladké</h3>
+          <ul>
+            <li>Domácí hruškový závin&nbsp;s&nbsp;ořechy&nbsp;a&nbsp;badyánovým sirupem <small class="alergen">1, 3, 7</small> 65&nbsp;Kč</li>
+            <li>Panna cotta <small class="alergen">1, 3, 7</small> 65&nbsp;Kč</li>
+            <li>Mandarinkový sorbet se sektem <small class="alergen">1, 3, 7</small> 69&nbsp;Kč</li>
+            <li>Dorty dle denní nabídky</li>
+          </ul>
+          <img src="fotky/panna-600.jpg" srcset="fotky/panna-300.jpg 0.5x, fotky/panna-1200.jpg 2x" width="600" height="450" alt="Panna cotta">
+
+          <h2>Nápojový lístek</h2>
+          <ul>
+            <li><small>0,33&nbsp;l</small> Coca cola, Fanta, Sprite 28&nbsp;Kč</li>
+            <li><small>0,33&nbsp;l</small> Kinley Tonic 28&nbsp;Kč</li>
+            <li><small>0,25&nbsp;l</small> Bonaqua 16&nbsp;Kč</li>
+            <li><small>0,33&nbsp;l</small> Mattoni 17&nbsp;Kč</li>
+            <li>Red bull 50&nbsp;Kč</li>
+            <li><small>0,3&nbsp;l</small> Juice dle nabídky 24&nbsp;Kč</li>
+            <li><small>0,5&nbsp;l</small> Točená Malinovka 23&nbsp;Kč</li>
+            <li><small>0,3&nbsp;l</small> Točená Malinovka 14&nbsp;Kč</li>
+          </ul>
+
+          <h3>Pivo</h3>
+          <ul>
+            <li><small>0,5&nbsp;l</small> Gambrinus 10° 24&nbsp;Kč</li>
+            <li><small>0,3&nbsp;l</small> Gambrinus 10° 16&nbsp;Kč</li>
+            <li><small>0,5&nbsp;l</small> Gambrinus 12° 27&nbsp;Kč</li>
+            <li><small>0,3&nbsp;l</small> Gambinus 12° 18&nbsp;Kč</li>
+            <li><small>0,5&nbsp;l</small> Pilsner Urquell lahvové 33&nbsp;Kč</li>
+            <li><small>0,5&nbsp;l</small> Radegast – Birell nealkoholické 25&nbsp;Kč</li>
+          </ul>
+
+          <h3>Teplé nápoje</h3>
+          <ul>
+            <li><small>7&nbsp;g</small> Espreso 25&nbsp;Kč</li>
+            <li><small>7&nbsp;g</small> Capuccino 25&nbsp;Kč</li>
+            <li><small>7&nbsp;g</small> Turecká káva 20&nbsp;Kč</li>
+            <li>Vídeňská káva 25&nbsp;Kč</li>
+            <li>Čaj 20&nbsp;Kč</li>
+            <li>Smetana do kávy 3&nbsp;Kč</li>
+          </ul>
+
+          <h3>Víno rozlévané</h3>
+          <ul>
+            <li><small>0,1&nbsp;l</small> Cinzano bianco, rosso, dry 35&nbsp;Kč</li>
+            <li><small>0,2&nbsp;l</small> Bílé víno rozlévané 30&nbsp;Kč</li>
+            <li><small>0,70&nbsp;l</small> Muller Thurgau 180&nbsp;Kč</li>
+            <li><small>0,70&nbsp;l</small> Rulandské 180&nbsp;Kč</li>
+            <li><small>0,2&nbsp;l</small> Červené víno rozlévané 30&nbsp;Kč</li>
+            <li><small>0,70&nbsp;l</small> Modrý Portugal 180&nbsp;Kč</li>
+            <li><small>0,70&nbsp;l</small> Bohemia sekt 220&nbsp;Kč</li>
+          </ul>
+
+          <h3>Bílá vína</h3>
+          <ul>
+            <li>Muškát moravský, cabinet suchý 500&nbsp;Kč</li>
+            <li>Ryzlink rýnský, pozdní sběr, AUSTERLITZ suché 550&nbsp;Kč</li>
+            <li>Veltlínské zelené, pozdní sběr 500&nbsp;Kč</li>
+            <li>Pinot Gris, pozdní sběr, polosladké 580&nbsp;Kč</li>
+            <li>Chardonnay, pozdní sběr, suché 620&nbsp;Kč</li>
+          </ul>
+
+          <h3>Červená vína</h3>
+          <ul>
+            <li>Frankovka, pozdní sběr, suché 660&nbsp;Kč</li>
+            <li>Zweigeltrebe, pozdní sběr, suché 550&nbsp;Kč</li>
+            <li>Modrý Portugal pozdní sběr, suché 500&nbsp;Kč</li>
+          </ul>
+
+          <h3>Zahraniční vína</h3>
+          <ul>
+            <li>Valpolicella Classico Superiore Vignetti Purano Le Bine 560&nbsp;Kč</li>
+            <li>Bordeaux Rouge Reserve Chateau Bonnet 780&nbsp;Kč</li>
+            <li>Chateauneuf-du-Pape Domaine Barville Rouge C.Brotte 1380&nbsp;Kč</li>
+            <li>Carmenere Reserva 0,75&nbsp;l Santa Rita 660&nbsp;Kč</li>
+          </ul>
+          <div class="vysvetlivky-ikony">
+            <span><svg class="icon-vege">
+              <use xlink:href="#icon-vege"/>
+          </svg>&nbsp;Vegetariánské jídlo</span>
+            <span><svg class="icon-chilli">
+              <use xlink:href="#icon-chilli"/>
+          </svg>&nbsp;Označené jídlo je velmi pálivé, nevhodné pro děti</span>
+          </div>
+        </section> -->
+
+        <section id="recenze" class="recenze">
+          <h2>Recenze</h2>
+          <blockquote class="recenze-host">
+            <p>Takže WOW... připravte se na můj názor. Tak celé to začalo tak že na jedné krásně farmě po spolu žila malá zvířátka... <a href="#ctipoggy">číst dál</a></p>
+            <p class="host">Poggy</p>
+            <div class="hodnoceni">
+              <svg>
+          <desc>
+           <p>Uživateli hodnoceno čtyřmi hvězdičkami z pěti.</p>
+          </desc>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="0" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="30" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="60" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="90" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-prazdna" x="120" y="0"/>
+          </svg>
+            </div>
+          </blockquote>
+          <blockquote class="recenze-host">
+            <p>Príjemné prekvapenie, objednávala som prvýkrát&nbsp;a&nbsp;myslím, že ešte niekedy budem. Jedlo malo pár nedostatkov, ale celkovo spokojnosť... <a href="#ctigabina">číst dál</a></p>
+            <p class="host">Gábina</p>
+            <div class="hodnoceni">
+              <svg>
+          <desc>
+          <p>Uživateli hodnoceno dvěma a půl hvězdičkami z pěti.</p>
+          </desc>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="0" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="30" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-pulka" x="60" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-prazdna" x="90" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-prazdna" x="120" y="0"/>
+          </svg>
+            </div>
+          </blockquote>
+          <blockquote class="recenze-host">
+            <p>Mix dané pizzy byl velmi zajímavý. Těsto bylo tenké&nbsp;a&nbsp;dobře vypečené. Ingrediencí bylo požehnaně, takže&nbsp;v&nbsp;tomto není co vytknout... <a href="#ctikarel">číst dál</a></p>
+            <p class="host">Karel</p>
+            <div class="hodnoceni">
+              <svg>
+          <desc>
+          <p>Uživateli hodnoceno třemi hvězdičkami z pěti.</p>
+          </desc>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="0" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="30" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="60" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-prazdna" x="90" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-prazdna" x="120" y="0"/>
+          </svg>
+            </div>
+          </blockquote>
+          <blockquote class="recenze-host">
+            <p>Všetko super! … <a href="#ctijana">číst dál</a></p>
+            <p class="host">Jana</p>
+            <div class="hodnoceni">
+              <svg>
+          <desc>
+          <p>Uživateli hodnoceno pěti hvězdičkami z pěti.</p>
+          </desc>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="0" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="30" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="60" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="90" y="0"/>
+              <use xlink:href="#icon-hvezda" class="icon-hvezda-vypln" x="120" y="0"/>
+          </svg>
+            </div>
+          </blockquote>
+        </section>
+
+      </main>
+      <aside>
+        <section id="kontakt" class="kontakt">
+          <h2>Kontakt</h2>
+
+          <h3>Otevírací doba</h3>
+          <table>
+            <tbody>
+              <tr>
+                <th>po</th>
+                <td>11.00&ndash;23.00</td>
+              </tr>
+              <tr>
+                <th>út</th>
+                <td>11.00&ndash;23.00</td>
+              </tr>
+              <tr>
+                <th>st</th>
+                <td>11.00&ndash;23.00</td>
+              </tr>
+              <tr>
+                <th>čt</th>
+                <td>11.00&ndash;23.00</td>
+              </tr>
+              <tr>
+                <th>pá</th>
+                <td>11.00&ndash;1.00</td>
+              </tr>
+              <tr>
+                <th>so</th>
+                <td>12.00&ndash;1.00</td>
+              </tr>
+              <tr>
+                <th>ne</th>
+                <td>zavřeno</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>rezervace na tel <a href="tel:420685580845">685&nbsp;580&nbsp;845</a></p>
+
+          <h3>Pasta al dente</h3>
+          <p>Bucharova 102/10</p>
+          <p>151 00 Praha 5</p>
+          <p>tel 685&nbsp;580&nbsp;845</p>
+          <p>email: <a href="mailto:restaurace@aldente.cz">restaurace@aldente.cz</a></p>
+          <p>web: www.aldente.cz</p>
+
+          <p>metro B, Nové Butovice</p>
+          <p>BUS 149,184,142,137,168,904</p>
+          <p><a href="https://mapy.cz/zakladni?x=14.3508526&y=50.0505938&z=18&source=firm&id=13033615">mapa</a></p>
+
+          <h4>Vedoucí</h4>
+          <p>Jiří Gracík</p>
+
+          <h4>Šéf kuchyně</h4>
+          <p>Tomáš Kout</p>
+
+          <h4>Provozovatel</h4>
+          <p>Pavla Verflová</p>
+        </section>
+      </aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo">
+    <div class="center-block">
+      &copy; Copyright 2017, <a href="mailto:vendysacek@seznam.cz">Vendula Krajíčková</a>
+    </div>
+  </footer>
+</body>
+
+</html>

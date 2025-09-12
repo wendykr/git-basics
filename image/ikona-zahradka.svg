@@ -1,0 +1,25 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 231.482 214.604">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #161615;
+      }
+    </style>
+  </defs>
+  <title>Icon - Furniture</title>
+  <g>
+    <rect class="cls-1" x="108.822" y="132.694" width="13.839" height="81.909"/>
+    <rect class="cls-1" x="152.03" y="159.046" width="13.843" height="55.557"/>
+    <rect class="cls-1" x="65.668" y="159.046" width="13.843" height="55.557"/>
+    <rect class="cls-1" x="209.332" y="103.992" width="13.843" height="110.612"/>
+    <rect class="cls-1" x="8.37" y="103.992" width="13.839" height="110.612"/>
+    <rect class="cls-1" x="152.03" y="159.046" width="61.423" height="13.763"/>
+    <rect class="cls-1" x="152.03" y="191.844" width="61.423" height="5.055"/>
+    <rect class="cls-1" x="12.895" y="191.844" width="61.423" height="5.055"/>
+    <rect class="cls-1" x="18.087" y="159.046" width="61.423" height="13.763"/>
+    <path class="cls-1" d="M190.241,127.586s0-3.809-3.809-3.809H45.05s-3.809,0-3.809,3.809v8.62s0,3.809,3.809,3.809H186.432s3.809,0,3.809-3.809Z"/>
+    <rect class="cls-1" x="112.841" y="24.783" width="5.798" height="107.252"/>
+    <polygon class="cls-1" points="114.108 0 112.843 3.527 118.641 3.527 117.281 0 114.108 0"/>
+    <polygon class="cls-1" points="113.175 3.079 0 36.074 42.263 39.255 115.682 42.432 189.104 39.255 231.482 36.074 118.306 3.079 113.175 3.079"/>
+  </g>
+</svg>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurace Al Dente</title>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="css/blanka.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" class="hidden-svg">
+    <defs>
+    <symbol viewbox="0 0 100 100" id="icon-vege">
+        <path d="M61.7 41.97c-13.94 0-22.95 5.83-32.06 15.88-.5.5-.76 1.07-.76 1.8 0 1.38 1.12 2.5 2.5 2.5.73 0 1.27-.27 1.8-.76 1.93-1.8 3.68-3.7 5.57-5.4 7.12-6.4 13.22-9 22.95-9 1.4 0 2.5-1.16 2.5-2.5 0-1.4-1.1-2.6-2.5-2.6z"/>
+        <path d="M50 0C22.38 0 0 22.38 0 50s22.38 50 50 50 50-22.38 50-50S77.62 0 50 0zm33.6 44.3c-2.53 12.25-10.42 20.23-21.36 25.65C56.9 72.65 51 74.2 44.98 74.2c-3.77 0-7.67-.6-11.26-1.82-1.88-.63-5.7-3.1-7.26-3.1-1.97 0-4.35 8.03-7.76 8.03-2.46 0-3.23-1.2-4.3-3-.36-.64-.63-.9-.63-1.72 0-4.07 7.8-7.3 7.8-9.6 0-.34-1.03-2.4-1.16-3.2-.2-1.36-.3-2.75-.3-4.1 0-12.5 9.97-21.47 21.18-25.2 8.08-2.7 25.26.45 30.77-4.75 2.15-2.02 3.23-3.85 6.55-3.85 4.43 0 5.9 11.56 5.9 14.88-.05 2.57-.32 5.1-.85 7.64z"/>
+    </symbol>
+    <symbol viewbox="0 0 10 11.2" id="icon-chilli">
+      <path class="icon-chilli-stopka" d="M.74 3.1C.7 3.1.64 3.05.6 3 .58 2.93-.16 1.63.04.1c.02-.1.1-.13.2-.1C.32.05.4.18.4.28.2 1.66.85 2.8.85 2.83c-.12.2-.04.06-.13.28z"/>
+      <path d="M2.27 2.57C.87 1.9-.3 4 .3 5.57 2.06 8.9 6.1 11.6 9.65 10.9c-7.3-4.33-4.73-7.04-7.38-8.33z" transform="matrix(1 0 0 1.007 -.013 -.01)"/>
+    </symbol>
+    <symbol viewbox="0 0 17052 16852" id="icon-sekt">
+      <path d="M12960 9605c13,2 25,3 38,5 73,10 149,15 225,15 159,0 314,-22 460,-64 140,-40 272,-98 394,-172 178,-107 335,-246 461,-409 218,-282 348,-635 348,-1018 0,-838 -621,-1532 -1428,-1646l185 -1226c41,-386 612,-1117 1325,-1872 150,-198 262,-256 284,-316l-1123 -1110c-88,66 -131,132 -222,213l-95 76c-1104,992 -2594,1940 -4113,2553 -156,73 -244,96 -395,151 -175,0 -350,0 -525,0l-7586 0 226 1470 -6 1 9 61c-698,104 -1255,640 -1388,1328 -20,103 -30,209 -30,317 0,733 474,1355 1132,1577 167,56 345,86 531,86 83,0 165,-6 245,-18l3 17c23,0 41,0 53,1l464 3080 10038 0c48,-297 125,-740 204,-1208l274 -1807 7 -80 5 0 0 -5z"/>
+      <path d="M2663 14058l9161 0c480,1 426,42 458,-182 28,-193 53,-347 101,-609l-9873 0c21,186 124,664 153,791z"/>
+      <path d="M12163 14624l-9424 0c86,372 156,1229 267,1542 175,489 628,682 1165,682l6560 0c246,0 442,-33 600,-93 227,-104 408,-289 532,-518 145,-336 164,-769 234,-1189 18,-104 63,-295 66,-424z"/>
+      <path d="M14565 1331l1150 1136c431,-414 865,-801 1236,-1106 242,-199 -6,-701 -338,-989 -349,-303 -708,-457 -918,-315 -104,71 -176,173 -257,267 -306,358 -579,686 -873,1007z"/>
+    </symbol>
+    <symbol viewbox="0 0 395 449" id="icon-nakup">
+      <path d="M245 212l150 0 0 57 -31 0 -46 138c-7,22 -17,42 -37,42l-152 0c-20,0 -29,-20 -37,-42l-46 -138 -30 0 0 -57 70 0 159 0zm13 85c9,0 16,7 16,16l0 79c0,9 -7,17 -16,17 -9,0 -17,-8 -17,-17l0 -79c0,-9 8,-16 17,-16zm-20 -85l0 -10 0 -38c0,-12 -5,-22 -13,-30 -7,-7 -17,-12 -29,-12l-61 0c-12,0 -22,5 -30,12 -7,8 -12,18 -12,30l0 47 0 1 -4 0 -3 0 0 -48c0,-14 5,-26 14,-35 9,-9 21,-14 35,-14l61 0c14,0 26,5 35,14 9,9 14,21 14,35l0 48 -4 0 -3 0zm-33 85c9,0 17,7 17,16l0 79c0,9 -8,17 -17,17 -9,0 -16,-8 -16,-17l0 -79c0,-9 7,-16 16,-16zm-52 0c9,0 16,7 16,16l0 79c0,9 -7,17 -16,17 -9,0 -17,-8 -17,-17l0 -79c0,-9 8,-16 17,-16z"/>
+      <path d="M39 95c-2,-3 5,-11 17,-19 11,-8 22,-13 23,-10 2,3 -5,11 -16,19 -12,8 -22,13 -24,10zm43 19c11,-8 22,-13 24,-10 2,3 -6,11 -17,19 -11,8 -22,13 -24,10 -1,-3 6,-11 17,-19zm0 49c0,-27 20,-48 46,-51 -5,-8 -11,-17 -17,-25 -48,-66 -96,-102 -108,-81 -12,21 17,92 65,157 5,7 9,14 14,20l0 -20z"/>
+      <path d="M238 212c0,-2 0,-3 0,-4 1,-3 2,-7 4,-10l36 -57c8,-13 20,-16 28,-17 -1,-2 -2,-3 -2,-5 -1,-3 0,-6 2,-9l5 -9c2,-2 5,-4 8,-5 3,-1 6,0 9,1l47 30c3,2 5,5 5,8 1,3 1,6 -1,9l-5 9c-2,3 -5,4 -8,5 -2,0 -3,0 -5,0 3,8 5,20 -4,33l-12 21 -9 0 15 -25c8,-13 4,-25 2,-30 -2,-3 -2,-5 -1,-7 2,-3 4,-3 8,0 1,1 3,1 4,1 1,-1 3,-1 3,-3l5 -8c1,-1 1,-2 1,-4 0,-1 -1,-2 -2,-3l-47 -29c-1,-1 -2,-1 -4,-1 -1,1 -2,1 -3,3l-5 8c-1,1 -1,2 0,4 0,1 1,2 2,3 4,2 5,4 3,7 -1,2 -3,2 -6,3 -6,0 -19,1 -27,14l-36 57c-1,3 -2,5 -3,7 0,1 0,2 0,3 -5,0 -4,0 -7,0z"/>
+      <path d="M135 122l61 0c12,0 22,5 29,12 8,8 13,18 13,30l0 38 0 10 0 -4c1,-3 2,-7 4,-10l3 -5 0 -29c0,-14 -5,-26 -14,-35 -9,-9 -21,-14 -35,-14l-61 0c-14,0 -26,5 -35,14 -9,9 -14,21 -14,35l0 48 3 0 4 0 0 -1 0 -47c0,-12 5,-22 12,-30 8,-7 18,-12 30,-12z"/>
+    </symbol>
+    <symbol viewbox="0 0 231.482 214.604" id="icon-zahradka">
+        <rect class="icon-zahradka-stul" x="108.822" y="132.694" width="13.839" height="81.909"/>
+        <rect class="icon-zahradka-zidle" x="152.03" y="159.046" width="13.843" height="55.557"/>
+        <rect class="icon-zahradka-zidle" x="65.668" y="159.046" width="13.843" height="55.557"/>
+        <rect class="icon-zahradka-zidle" x="209.332" y="103.992" width="13.843" height="110.612"/>
+        <rect class="icon-zahradka-zidle" x="8.37" y="103.992" width="13.839" height="110.612"/>
+        <rect class="icon-zahradka-zidle" x="152.03" y="159.046" width="61.423" height="13.763"/>
+        <rect class="icon-zahradka-zidle" x="152.03" y="191.844" width="61.423" height="5.055"/>
+        <rect class="icon-zahradka-zidle" y="191.844" width="61.423" height="5.055"/>
+        <rect class="icon-zahradka-zidle" x="18.087" y="159.046" width="61.423" height="13.763"/>
+        <path class="icon-zahradka-stul" d="M190.241,127.586s0-3.809-3.809-3.809H45.05s-3.809,0-3.809,3.809v8.62s0,3.809,3.809,3.809H186.432s3.809,0,3.809-3.809Z"/>
+        <rect class="icon-zahradka-destnik-tyc" x="112.841" y="24.783" width="5.798" height="107.252"/>
+        <polygon class="icon-zahradka-zidle" points="114.108 0 112.843 3.527 118.641 3.527 117.281 0 114.108 0"/>
+        <polygon class="icon-zahradka-destnik" points="113.175 3.079 0 36.074 42.263 39.255 115.682 42.432 189.104 39.255 231.482 36.074 118.306 3.079 113.175 3.079"/>
+      </symbol>
+      <symbol viewbox="0 0 16758 16110" id="icon-kuchar">
+        <path d="M12649 13561c-787,756 -2835,1160 -4270,1160 -1393,0 -3383,-353 -4207,-1063l81 769c119,1124 2548,1683 4126,1683 1564,0 3936,-592 4126,-1683 54,-313 102,-599 144,-866z"/>
+        <path d="M5217 10143c-19,-173 106,-330 278,-350 173,-19 330,106 350,278l254 2223c20,173 -105,330 -278,350 -172,19 -330,-106 -349,-278l-255 -2223zm-2897 -5187c-63,150 -236,220 -386,157 -150,-63 -220,-235 -157,-385 232,-549 616,-1001 1099,-1318 480,-315 1057,-498 1678,-513 163,-4 298,125 301,288 4,162 -124,297 -287,301 -509,12 -980,160 -1369,416 -387,254 -694,615 -879,1054zm4750 -2708c-135,90 -318,53 -408,-83 -90,-136 -53,-319 83,-409 492,-326 1049,-490 1608,-490 559,0 1118,162 1614,488 136,89 174,272 85,408 -89,136 -272,175 -408,85 -400,-262 -847,-393 -1291,-393 -443,1 -887,132 -1283,394zm2070 8455c0,-173 142,-315 315,-315 174,0 316,142 316,315l0 2238c0,173 -142,315 -316,315 -173,0 -315,-142 -315,-315l0 -2238zm1582 1591l255 -2223c19,-172 177,-297 349,-278 173,20 298,177 278,350l-255 2223c-19,172 -177,297 -349,278 -173,-20 -298,-177 -278,-350zm2057 371c105,-805 159,-1465 212,-2260 31,-456 335,-825 777,-941 1721,-456 2990,-2025 2990,-3890 0,-2222 -1801,-4024 -4023,-4024 -372,0 -732,51 -1074,145 -729,-1026 -1927,-1695 -3282,-1695 -1354,0 -2553,669 -3282,1695 -342,-94 -702,-145 -1074,-145 -2222,0 -4023,1802 -4023,4024 0,1883 1293,3463 3040,3902 434,109 738,460 785,905l259 2442c761,765 2849,1145 4295,1145 1522,0 3735,-455 4400,-1303zm-5159 -2277c174,0 316,142 316,315l0 2238c0,173 -142,315 -316,315 -173,0 -315,-142 -315,-315l0 -2238c0,-173 142,-315 315,-315z"/>
+      </symbol>
+      <symbol viewbox="0 0 1200 600" id="icon-hvezda">
+        <path d="M79.5 96.4L49.8 80.7l-30 14.7 6-33L1.8 39 35 34.3l15.2-30 14.8 30 33.2 5-24.3 23z"/>
+      </symbol>
+      <lineargradient id="halfGradient">
+  <stop stop-opacity="1" offset="50%" stop-color="#ffbe0b"></stop>
+  <stop stop-opacity="1" offset="50%" stop-color="#c0c0c0"></stop>
+</lineargradient>
+   </defs>
+  </svg>
+  <!-- <div class="last-edit">Poslední změna dokumentu:
+    <script language="JavaScript">
+      document.write(document.lastModified)
+    </script>
+  </div> -->
+
+
+  <header>
+    <img src="image/al-dente_logo.svg" alt="Logo Al Dente">
+    <h1>Restaurace Al Dente</h1>
+    <p>Váš ostrůvek slunné Itálie uprostřed pražských Stodůlek!</p>
+  </header>
+
+  <nav role="navigation">
+    <ul>
+      <li><a href="index.html" title="Hlavní obsah">Hlavní obsah</a></li>
+      <li><a href="jidelnicek.html" title="Jídelníček">Jídelníček</a></li>
+      <li><a href="recenze.html" title="Recenze">Recenze</a></li>
+      <li class="selected"><a href="galerie.html" title="Galerie">Galerie</a></li>
+      <li><a href="kontakt.html" title="Kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+
+  <div class="center-block">
+    <div class="container">
+
+      <main id="main" role="main">
+        <h1>Galerie</h1>
+        <div class="container-galerie">
+		<a href="fotky/polevka-1200.jpg">
+			<img class="img-responsive" src="fotky/polevka-300.jpg" srcset="fotky/polevka-600.jpg 600w" alt="Silný hovězí vývar se zeleninou, masem a nudlemi">
+		</a>
+		<a href="fotky/salat-1200.jpg">
+			<img class="img-responsive" src="fotky/salat-300.jpg" srcset="fotky/salat-600.jpg 600w" alt="Římský salát s dresinkem">
+		</a>
+		<a href="fotky/testoviny-1200.jpg">
+			<img class="img-responsive" src="fotky/testoviny-300.jpg" srcset="fotky/testoviny-600.jpg 600w" alt="Domácí těstoviny s omáčkou">
+		</a>
+		<a href="fotky/pizza-1200.jpg">
+			<img class="img-responsive" src="fotky/pizza-300.jpg" srcset="fotky/pizza-600.jpg 600w" alt="Pizza Vegetariana">
+		</a>
+		<a href="fotky/norsky-losos-1200.jpg">
+			<img class="img-responsive" src="fotky/norsky-losos-300.jpg" srcset="fotky/norsky-losos-600.jpg 600w" alt="Pečený norský losos">
+		</a>
+		<a href="fotky/grilovana-zelenina-1200.jpg">
+			<img class="img-responsive" src="fotky/grilovana-zelenina-300.jpg" srcset="fotky/grilovana-zelenina-600.jpg 600w" alt="Grilovaná zelenina">
+		</a>
+		<a href="fotky/penne-1200.jpg">
+			<img class="img-responsive" src="fotky/penne-300.jpg" srcset="fotky/penne-600.jpg 600w" alt="Penne s rajčatovou omáčkou">
+		</a>
+		<a href="fotky/panna-1200.jpg">
+			<img class="img-responsive" src="fotky/panna-300.jpg" srcset="fotky/panna-600.jpg 600w" alt="Panna cotta">
+		</a>
+        </div>
+
+        <h2>Video</h2>
+        <div class="video-responsive">
+          <iframe width="640" height="360" src="https://www.youtube.com/embed/mEqvP1d3t58" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </main>
+
+      <aside>
+        <section id="kontakt" class="kontakt">
+          <h2>Kontakt</h2>
+
+          <h3>Otevírací doba</h3>
+          <table>
+            <tbody>
+              <tr>
+                <th>po</th>
+                <td>11.00&ndash;23.00</td>
+              </tr>
+              <tr>
+                <th>út</th>
+                <td>11.00&ndash;23.00</td>
+              </tr>
+              <tr>
+                <th>st</th>
+                <td>11.00&ndash;23.00</td>
+              </tr>
+              <tr>
+                <th>čt</th>
+                <td>11.00&ndash;23.00</td>
+              </tr>
+              <tr>
+                <th>pá</th>
+                <td>11.00&ndash;1.00</td>
+              </tr>
+              <tr>
+                <th>so</th>
+                <td>12.00&ndash;1.00</td>
+              </tr>
+              <tr>
+                <th>ne</th>
+                <td>zavřeno</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <p>rezervace na tel <a href="tel:420685580845">685&nbsp;580&nbsp;845</a></p>
+
+          <h3>Pasta al dente</h3>
+          <p>Bucharova 102/10</p>
+          <p>151 00 Praha 5</p>
+          <p>tel 685&nbsp;580&nbsp;845</p>
+          <p>email: <a href="mailto:restaurace@aldente.cz">restaurace@aldente.cz</a></p>
+          <p>web: www.aldente.cz</p>
+
+          <p>metro B, Nové Butovice</p>
+          <p>BUS 149,184,142,137,168,904</p>
+          <p><a href="https://mapy.cz/zakladni?x=14.3508526&y=50.0505938&z=18&source=firm&id=13033615">mapa</a></p>
+
+          <h4>Vedoucí</h4>
+          <p>Jiří Gracík</p>
+
+          <h4>Šéf kuchyně</h4>
+          <p>Tomáš Kout</p>
+
+          <h4>Provozovatel</h4>
+          <p>Pavla Verflová</p>
+        </section>
+      </aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo">
+    <div class="center-block">
+      &copy; Copyright 2017, <a href="mailto:vendysacek@seznam.cz">Vendula Krajíčková</a>
+    </div>
+  </footer>
+</body>
+
+</html>

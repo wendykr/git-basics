@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+     viewBox="0 0 10 11.2"
+     width="100"
+     height="112"
+     id="svg2"
+     version="1.1"
+     inkscape:version="0.91 r13725"
+     sodipodi:docname="chilli.svg">
+    <metadata
+         id="metadata14">
+        <rdf:RDF>
+            <cc:Work
+                 rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type
+                     rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+                <dc:title></dc:title>
+            </cc:Work>
+        </rdf:RDF>
+    </metadata>
+    <defs
+         id="defs12" />
+    <sodipodi:namedview
+         pagecolor="#ffffff"
+         bordercolor="#666666"
+         borderopacity="1"
+         objecttolerance="10"
+         gridtolerance="10"
+         guidetolerance="10"
+         inkscape:pageopacity="0"
+         inkscape:pageshadow="2"
+         inkscape:window-width="1920"
+         inkscape:window-height="1178"
+         id="namedview10"
+         showgrid="false"
+         inkscape:snap-bbox="false"
+         inkscape:bbox-paths="true"
+         inkscape:bbox-nodes="true"
+         inkscape:snap-bbox-edge-midpoints="true"
+         inkscape:snap-bbox-midpoints="true"
+         inkscape:object-paths="true"
+         inkscape:snap-intersection-paths="true"
+         inkscape:object-nodes="true"
+         inkscape:snap-smooth-nodes="true"
+         inkscape:snap-page="true"
+         fit-margin-top="0"
+         fit-margin-left="0"
+         fit-margin-right="0"
+         fit-margin-bottom="0"
+         inkscape:zoom="8.9"
+         inkscape:cx="24.75"
+         inkscape:cy="84.7"
+         inkscape:window-x="0"
+         inkscape:window-y="0"
+         inkscape:window-maximized="1"
+         inkscape:current-layer="svg2" />
+    <g
+         id="g4157"
+         transform="matrix(1.001,0,0,1.007,-0.0133,-0.0106)">
+        <path
+             sodipodi:nodetypes="cccccccc"
+             d="M 0.7549,3.095 C 0.7021,3.072 0.6493,3.033 0.6141,2.981 0.5965,2.931 -0.1422,1.644 0.0513,0.1195 0.0689,0.0251 0.1568,-0.0226 0.2448,0.0105 0.3328,0.0639 0.4032,0.1915 0.4032,0.2925 0.2272,1.662 0.8781,2.797 0.8781,2.817 0.7656,3.019 0.844,2.877 0.7555,3.095 Z"
+             id="path8"
+             inkscape:connector-curvature="0"
+             style="fill:#ff6600" />
+        <path
+             sodipodi:nodetypes="sccs"
+             inkscape:connector-curvature="0"
+             id="path4147"
+             d="M 2.265,2.569 C 0.8698,1.888 -0.3076,4.003 0.3047,5.566 2.056,8.913 6.09,11.59 9.655,10.89 2.339,6.568 4.925,3.865 2.265,2.569 Z"
+             style="fill:#00ffff;fill-opacity:1;stroke:#dc00de;stroke-width:0.2484;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+</svg>

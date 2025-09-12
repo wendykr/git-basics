@@ -1,0 +1,648 @@
+/*
+color scheme vygenerovano na zaklade barev italske vlajky pomoci Coolors https://coolors.co/ce2b37-009245-ffffff-ffbe0b-8f9491
+primary color #ce2b37
+secondary color #009245
+terciary #ffbe0b
+border #8f9491
+*/
+
+
+/*
+pokud není uvedeno jinak, výchozí velikost písma je 16px
+*/
+
+
+/*
+dopočítávání rozměru boxů dovnitř elementu,
+využití, pokud chceme přidat border nebo odsazení
+(padding) elementu obrázku; nastavené hodnoty
+budou součástí nastavené šířky a výšky
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  /* padding: .5rem; */
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #222;
+}
+
+h1, h2, h3, h4 {
+  color: #800;
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.6em;
+  text-shadow: 1px 1px 2px #fff;
+  /* stínování textu - hodnoty: horizontální, vertikální, rozptyl */
+}
+
+
+/* HLAVIČKA STRÁNEK */
+
+header {
+  padding: 1rem;
+  /* background-image: linear-gradient(to right, #800 50%, #fff); */
+  /* plynulý přechod */
+  /* background-image: linear-gradient(to right, #080 33%, #fff 33%, #fff 66%, #800 66%); */
+  /* přechod s barevnými zarážkami */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), linear-gradient(to right, #080 33%, #fff 33%, #fff 66%, #800 66%);
+  /* pravá italská vlajka */
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+
+header h1 {
+    text-shadow: 2px 2px 4px rgba(255,255,255,.8);
+}
+
+/* text sloganu */
+
+header p {
+  padding: 1rem 0;
+  background-color: rgba(255, 255, 255, 0.19);
+  margin: -1rem;
+  /* A) záporný okraj roztáhne prvek i přes padding rodiče .header, takže od kraje do kraje */
+  margin-top: .5em;
+  /* B) proto odsadíme od nadpisu */
+  color: #033803;
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0px 1px 2px silver;
+}
+
+
+/* header img {
+  max-width: 100%;
+  height: auto;
+} */
+
+header img {
+  max-width: 300px;
+}
+
+@media only screen and (max-width:320px) {
+  header img {
+    display: none;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  header p {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+    header {
+        font-size: 2rem;
+    }
+}
+
+
+/* header p {
+  font-size: 1.5em;
+} */
+
+
+/* NAVIGACE STRÁNEK */
+
+nav {
+  /*text-align: center;*/
+  /*position: sticky;*/
+  /*top: 0px;*/
+  background-color: rgba(255, 255, 255, 1);
+  background: linear-gradient(to top, #f1f1f1, #fff, #fff, #f1f1f1);
+  /*z-index: 1;*/
+}
+
+nav ul {
+  list-style-type: none;
+  line-height: 3em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: auto;
+}
+
+@media only screen and (max-width:400px) {
+  nav ul {
+    flex-direction: column;
+  }
+  .selected {
+	background: #800;
+  }
+  .selected > a{
+	  color: #fff;
+  }
+}
+
+nav li {
+  font-weight: bold;
+  margin: .5rem;
+  white-space: nowrap;
+  flex-grow: 1;
+  /* ma se prvek roztahovat do volneho mista */
+  flex-shrink: 0;
+  /* ma se prvek smrstovat, kdyz mista ubyva */
+  flex-basis: 1em;
+  /* minimalni sirka, pod niz se uz nebude smrstovat, a prvek se zalomi na dalsi radek */
+}
+
+nav a:hover {
+  /*color: #009245;*/
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/*nav ul li::before {
+  content: ' | ';
+  color: #222;
+  font-weight: normal;
+}*/
+
+/*nav ul li:first-child::before {
+  content: '';
+}*/
+
+.center-block {
+  max-width: 1200px;
+  /* omezení šířky stránky, aby na velkých monitorech nebyla neúměrně široká */
+  margin: auto;
+  /* vycentrování blokového elementu */
+  /*pro řádkový element se rodiči nastavuje vlastnost text-align */
+}
+
+
+/* a[href="#main"] {
+  display: none; /* odkaz pro čtecí zařízení
+} */
+
+
+/* SEKCE */
+
+section, .formular, .mapa {
+  padding: 1rem;
+  border: 1px solid #8f9491;
+  margin: 1rem 0;
+}
+
+a {
+  color: #800;
+  /* color: #880000; */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+/* pomocná třída */
+
+.hidden {
+  display: none;
+}
+
+
+/* UPOUTÁVKY */
+
+
+/* .upoutavky {
+  background-color: rgba(255, 0, 0, 0.28);
+} */
+
+
+/* flexbox */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* nastavi smer, jakym se maji prvky uvnitr radit za sebou: pod sebou */
+  margin: 0 -.5rem;
+  /* zaporny margin rodice vyrovna kladny margin krajnich prvku, ktere tak budou licovat s obsahem nad i pod */
+}
+
+main, aside {
+  flex-grow: 1;
+  /* ma se prvek roztahovat do volneho mista */
+  flex-shrink: 0;
+  /* nema se prvek smrstovat, kdyz mista ubyva */
+  flex-basis: 16em;
+  /* minimalni sirka, pod niz se uz nebude smrstovat, a prvek se zalomi na dalsi radek */
+  margin: 0 .5rem;
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    /* prvky vedle sebe */
+    /*nastavení pro display:flex pro potomky jako sloupec*/
+    flex-wrap: wrap;
+    /* pokud se nevejdou vedle sebe, necht se zalomi */
+  }
+  main {
+    flex: 3;
+    /* necht prvek zabere 3 dily volneho mista */
+  }
+  aside {
+    flex: 1;
+    /* necht prvek zabere 1 dil volneho mista */
+  }
+}
+
+.upoutavky {
+  font-size: 0;
+  /* zmenšením velikosti písma na 0 zmizí i mezery mezi potomky .upoutavky div, kteří mají display: inline-block, tj. chovají se jako slova na řádku */
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.upoutavky div {
+  /* border: 1px solid rgba(255, 0, 0, 0.49); */
+  border: 1px solid #009245;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  margin: 0.4em;
+  color: #009245;
+  font-size: 1rem;
+  /* zděděná font-size rodiče .upoutavky je 0, takže písmo nastavíme zpět na základní velikost  */
+  /* flex: 1 0 12em; */
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 12em;
+}
+
+@media only screen and (min-width: 750px) {
+  /*
+        [1] Změníme typ elementu z blokového (div je blokový element) na inline-block
+		(kombinace inline a block - lze zobrazit vedle sebe a můžeme nastavit šířku/výšku,
+		aby nezabíral celou šířku a nezačínal pokaždé na novém řádku.
+        [2] Zúžíme jej na polovinu, aby se vešly 2 blokové elementy vedle sebe.
+    */
+  .upoutavky div {
+    display: inline-block;
+    /* [1] */
+    width: 50%;
+    /* [2] */
+  }
+}
+
+
+/* JÍDELNÍ LÍSTEK */
+
+.menu {
+  /*background-color: rgba(149, 158, 203, 0.2);*/
+  /* background-color: #88000008; */
+}
+
+.menu ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu li {
+  margin-bottom: .5em;
+}
+
+
+/* dopočítávání výšky na základě šířky, pro zajištění responzivity,
+aby se obrázky vlezly do responzivní podoby stránek*/
+
+.menu img, .img-responsive {
+  max-width: 100%;
+  /* obrázek nepřeteče přes okraj rodičovského elementu */
+  height: auto;
+  /* při pružné šířce se zachová poměr stran */
+}
+
+@media only screen and (max-width:800px) {
+  .alergen {
+    display: none;
+  }
+}
+
+.vysvetlivky-ikony {
+  padding-top: 1em;
+  text-align: center;
+  font-size: .9em;
+}
+
+.vysvetlivky-ikony span:first-child {
+  color: #080;
+}
+
+.vysvetlivky-ikony span:last-child {
+  color: #f00;
+}
+
+
+/* KONTAKT */
+
+.kontakt {
+  /* border-bottom: 1px solid #8f9491; */
+  /*background-color: #f4f4f4;*/
+}
+
+
+/* RECENZE HOSTŮ */
+
+
+/* .recenze {
+  background-color: rgba(0, 128, 0, 0.32);
+} */
+
+.recenze-host {
+  position: relative;
+  padding-left: 1.5em;
+  padding-right: 1.2em;
+}
+
+.recenze-host::before, .recenze-host::after {
+  position: absolute;
+  color: #c0c0c0;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.recenze-host::before {
+  content: '„';
+  top: 0;
+  left: 0;
+}
+
+.recenze-host::after {
+  content: '“';
+  top: -.1em;
+  right: 0;
+}
+
+blockquote p:first-child {
+  color: #353535;
+}
+
+
+/* blockquote p:last-child { /* jelikož bylo přidáno hodnocení hvězdiček, není již poslední potomek, ale druhý, viz níže nth-child(2)
+  font-weight: bold;
+} */
+
+blockquote p:nth-child(2) {
+  font-weight: bold;
+}
+
+blockquote a {
+  display: block;
+  /* prvek se zobrazí se zalomením, lze mu nastavit odsazení padding, bere si celou šířku rodiče blockquote */
+  text-align: right;
+  padding-right: 50px;
+}
+
+blockquote a::after {
+  content: ' >>';
+  color: inherit;
+}
+
+.recenze-host, .recenze-host:nth-child(even) {
+  /* background-color: rgba(0, 128, 0, 0.32);
+  border: 1px solid #009245;
+  border-radius: .5em; */
+  padding-top: 0.9em;
+}
+
+
+/* .recenze-host:nth-child(even) { /* sudý řádek tabulky
+  background-color: rgba(0, 128, 0, 0.32);
+} */
+
+.hodnoceni svg {
+  width: 150px;
+  height: 30px;
+  /*border: 1px solid black; pouze pro ladění umístění*/
+}
+
+
+/* PATIČKA STRÁNEK */
+
+footer {
+  /*background-color: rgba(149, 158, 203, 0.2);*/
+  color: #6b6b6b;
+  font-size: 0.9em;
+  /*text-align: center;*/
+  line-height: 2em;
+  border-top: 1px solid #e8e8e8;
+}
+
+
+/* ikony svg */
+
+
+/* při použití gradientu, tedy barevného přechodu, se nesmí technika sprite skrýt pomoci display:none (.hidden), proto je třeba: */
+
+.hidden-svg {
+  position: absolute;
+  /* A) ji odšoupnout */
+  width: 0;
+  /* B) a zdrcnout */
+  top: 0;
+}
+
+.icon-vege {
+  width: 1em;
+  height: 1em;
+  fill: #080;
+  /* výplň fill funguje pouze na svg */
+}
+
+.icon-chilli {
+  width: 1em;
+  height: 1em;
+  fill: #f00;
+}
+
+.icon-sekt, .icon-nakup, .icon-zahradka, .icon-kuchar {
+  width: 3em;
+  height: 3em;
+  fill: currentColor;
+  /* nastavení barvy podle rodiče */
+}
+
+.icon-hvezda-vypln, .icon-hvezda-pulka, .icon-hvezda-prazdna {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.icon-hvezda-vypln {
+  fill: #ffbe0b;
+}
+
+.icon-hvezda-pulka {
+  fill: url(#halfGradient);
+}
+
+.icon-hvezda-prazdna {
+  fill: #c0c0c0;
+}
+
+
+/* barevné nastylování svg ikon */
+
+
+/* .icon-sekt {
+  fill: currentColor;
+}
+
+.icon-zahradka-zidle {
+  fill: #ffbe0b;
+}
+
+.icon-zahradka-destnik {
+  fill: #009245;
+}
+
+.icon-zahradka-stul, .icon-chilli-stopka {
+  fill: #8b4513;
+}
+
+.icon-kuchar {
+  fill: #880000;
+}
+
+.icon-hvezda-pulka {
+  fill: linear-gradient(to right, # 50%, #fff 50%);
+}
+
+.icon-hvezda-prazdna {
+  fill: none;
+  fill-opacity: 0;
+  stroke: #ffbe0b;
+  stroke-width: 6;
+} */
+
+.last-edit {
+  font-size: 0.6em;
+  color: #6b6b6b;
+}
+
+
+/* FORMULÁŘ */
+
+form {
+  /* border: 1px solid black; */
+  width: 100%;
+  margin-bottom: .5em;
+}
+
+legend {
+  font-weight: bold;
+  padding: .5em;
+}
+
+fieldset {
+  border: 1px solid #8f9491;
+  padding: .5em;
+  width: 50%;
+}
+
+.pole {
+  padding: .5em 0;
+}
+
+label {
+  display: block;
+}
+
+.button {
+  margin-top: 1em;
+}
+
+.validace :invalid+span:before, .validace :valid+span:before {
+  content: "Vyplňte!";
+  color: red;
+  padding: .1em;
+}
+
+.validace :valid+span:before {
+  content: "OK, vyplněno :)";
+  color: green;
+}
+
+.container-formular {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 650px) {
+  .container-formular {
+    flex-direction: column;
+  }
+}
+
+/* VIDEO */
+
+.video-responsive {
+    position: relative; /* základ souřadnic pro absolutně pozicovaný vnořený prvek = potomka, tj iframe */
+    padding-bottom: 56.25%; /* poměr stran vkládaného obsahu 360/640x100 = 56.25 */
+    overflow: hidden; /* prevence skrytí přetékajícího obsahu*/
+}
+
+.video-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* MAPA */
+
+.mapa-responsive {
+    position: relative; /* základ souřadnic pro absolutně pozicovaný vnořený prvek = potomka, tj iframe */
+    padding-bottom: 76.66667%; /* poměr stran vkládaného obsahu 450/600x100 = 76.66667 */
+    overflow: hidden; /* prevence skrytí přetékajícího obsahu*/
+}
+
+.mapa-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* GALERIE */
+
+.container-galerie {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5rem;
+}
+
+.container-galerie a {
+  border: 1px solid #c0c0c0;
+  flex-grow: 1; /* prvek se má roztahovat do volného místa */
+  flex-shrink: 1; /* prvek se má smršťovat, když místo ubývá */
+  flex-basis: 250px; /* minimální šířka, pod kterou se bude už prvek smršťovat a zalomí se na další řádek */
+  display: flex;
+  align-items: center;
+  padding: .25em;
+  margin: 0.5rem;
+}
