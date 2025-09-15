@@ -1,3 +1,3 @@
 # Restaurace Al Dente
 
-Fiktivní projekt kurzu **Jak na web JARO 2019**
+Fiktivní projekt kurzu **Jak na web JARO 2030**
